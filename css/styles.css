@@ -279,6 +279,9 @@ p {
 
 .section-features {
   padding: 120px 0px;
+  display: flex;
+  width: 1158px;
+  margin: auto;
 }
 .list-section-features {
   display: flex;
@@ -292,6 +295,9 @@ p {
 }
 .section-wawd {
   padding-bottom: 120px;
+  display: flex;
+  width: 1158px;
+  margin: auto;
 }
 .title-wawd {
   margin-bottom: 72px;
@@ -302,9 +308,4 @@ p {
 }
 .item-wawd {
   width: calc((100% - 48px) / 3);
-}
-.section-width {
-  display: flex;
-  width: 1158px;
-  margin: auto;
 }
