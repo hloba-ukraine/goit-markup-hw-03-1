@@ -246,15 +246,16 @@ p {
   display: flex;
   gap: 40px;
 }
-.list-header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .adress-list {
   display: flex;
   gap: 40px;
 
   margin-top: 24px;
+}
+.header-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /*Main*/
 .main-section {
