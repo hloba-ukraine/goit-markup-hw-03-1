@@ -250,6 +250,14 @@ p {
 .adress-list {
   display: flex;
   gap: 40px;
-  margin-left: 332px;
+  margin-left: 300px;
   margin-top: 24px;
+}
+/*Main*/
+.main-section {
+  padding: 188px 0;
+}
+.adress-item {
+  display: flex;
+  flex-wrap: nowrap;
 }
