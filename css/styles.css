@@ -188,12 +188,7 @@ body {
   background-color: var(--ocean);
   color: var(--white);
 }
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -225,7 +220,13 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.container {
+  min-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /*Header*/
+
 .header-border {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
@@ -236,6 +237,7 @@ p {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 .logo-header {
   margin-right: 76px;
@@ -245,12 +247,13 @@ p {
   gap: 40px;
 }
 .list-header-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .adress-list {
   display: flex;
   gap: 40px;
-  margin-left: 300px;
+
   margin-top: 24px;
 }
 /*Main*/
