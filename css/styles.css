@@ -202,6 +202,7 @@ body {
 .button-list:focus {
   background-color: var(--ocean);
   color: var(--white);
+  border: 1px solid transparent;
 }
 
 .visually-hidden {
@@ -338,4 +339,35 @@ p {
 }
 .footer-text {
   max-width: 264px;
+}
+/*Portfolio-page*/
+.porfolio-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
+  display: flex;
+  width: 1158px;
+  margin: auto;
+}
+.list-portfolio-bitton {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.list-portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.item-portfolio {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-item-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-title {
+  margin-bottom: 8px;
 }
