@@ -36,9 +36,9 @@ body {
   letter-spacing: 1.12px;
   color: var(--white);
   text-align: center;
-  padding-right: 316px;
-  padding-top: 188px;
-  padding-left: 316px;
+  margin-right: 316px;
+  margin-left: 316px;
+  max-width: 496px;
 }
 .header-medium {
   line-height: 1.11;
@@ -70,6 +70,21 @@ body {
   background: var(--iris);
   color: var(--white);
   font-family: "Roboto", sans-serif;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 169px;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .button-main:hover,
@@ -250,7 +265,7 @@ p {
 .adress-list {
   display: flex;
   gap: 40px;
-
+  margin-bottom: 24px;
   margin-top: 24px;
 }
 .header-link {
@@ -264,4 +279,30 @@ p {
 .adress-item {
   display: flex;
   flex-wrap: nowrap;
+}
+.section-features {
+  padding: 120px 0;
+}
+.list-section-features {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+.title-features {
+  margin-bottom: 8px;
+}
+.section-wawd {
+  padding-bottom: 120px;
+}
+.title-wawd {
+  margin-bottom: 72px;
+}
+.list-wawd {
+  display: flex;
+  gap: 24px;
+}
+.item-wawd {
+  width: calc((100% - 48px) / 3);
 }
