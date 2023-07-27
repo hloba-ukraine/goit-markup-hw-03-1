@@ -276,12 +276,9 @@ p {
 .main-section {
   padding: 188px 0;
 }
-.adress-item {
-  display: flex;
-  flex-wrap: nowrap;
-}
+
 .section-features {
-  padding: 120px 0;
+  padding: 120px 0px;
 }
 .list-section-features {
   display: flex;
@@ -305,4 +302,9 @@ p {
 }
 .item-wawd {
   width: calc((100% - 48px) / 3);
+}
+.section-width {
+  display: flex;
+  width: 1158px;
+  margin: auto;
 }
