@@ -161,6 +161,8 @@ body {
 }
 .adress-style {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .mail-phone {
   color: var(--adress);
@@ -239,14 +241,14 @@ p {
   padding: 0 15px;
   width: 1158px;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   justify-content: center;
 }
 .header-nav {
   display: flex;
   align-items: center;
   margin-right: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-header {
   margin-right: 76px;
@@ -358,6 +360,6 @@ p {
 .sec-padding {
   padding: 120px 0;
 }
-.sec-padding-2 {
+.sec-paddingcenter {
   padding-bottom: 120px;
 }
