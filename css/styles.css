@@ -91,11 +91,9 @@ body {
 .navybluebg {
   display: flex;
   background-color: var(--navyblue);
-  width: 100%;
 }
 .cloudbg {
   background-color: var(--cloud);
-  width: 100em;
   display: flex;
 }
 
