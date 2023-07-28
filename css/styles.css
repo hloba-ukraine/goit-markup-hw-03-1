@@ -150,7 +150,7 @@ body {
 }
 .card-team {
   background-color: #ffffff;
-
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -224,12 +224,13 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+/*Header*/
 .container {
   min-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-/*Header*/
 
 .header-border {
   border-bottom: 1px solid #e7e9fc;
@@ -257,6 +258,9 @@ p {
   display: flex;
   gap: 40px;
 }
+.header-link {
+  padding: 24px 0;
+}
 
 /*Main*/
 .main-section {
@@ -264,8 +268,6 @@ p {
 }
 
 .section-features {
-  padding: 120px 0px;
-
   width: 1158px;
   margin: auto;
 }
@@ -350,4 +352,10 @@ p {
 }
 .portfolio-title {
   margin-bottom: 8px;
+}
+.Sec-padding {
+  padding: 120px 0;
+}
+.sec-padding-2 {
+  padding-bottom: 120px;
 }
