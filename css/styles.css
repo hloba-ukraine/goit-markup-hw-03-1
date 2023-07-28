@@ -95,10 +95,7 @@ body {
 }
 .cloudbg {
   background-color: var(--cloud);
-  position: relative;
-  width: 100vw;
-  left: 50%;
-  transform: translate(-50%);
+
   display: flex;
 }
 
@@ -295,9 +292,7 @@ p {
 .item-wawd {
   width: calc((100% - 48px) / 3);
 }
-.section-ourteam {
-  padding: 120px 0;
-}
+
 .title-ourteam {
   margin-bottom: 72px;
 }
