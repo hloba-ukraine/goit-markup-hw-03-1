@@ -11,11 +11,7 @@
   --white: #ffffff;
   --adress: #434455;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -94,10 +90,7 @@ body {
 }
 .navybluebg {
   background-color: var(--navyblue);
-  position: relative;
-  width: 100vw;
-  left: 50%;
-  transform: translate(-50%);
+
   display: flex;
 }
 .cloudbg {
@@ -157,11 +150,6 @@ body {
 }
 .card-team {
   background-color: #ffffff;
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -245,10 +233,12 @@ p {
 
 .header-border {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
 .header-main {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: center;
 }
 .header-nav {
   display: flex;
@@ -266,13 +256,8 @@ p {
 .adress-list {
   display: flex;
   gap: 40px;
-  margin-bottom: 24px;
-  margin-top: 24px;
 }
-.header-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 /*Main*/
 .main-section {
   padding: 188px 0;
@@ -280,7 +265,7 @@ p {
 
 .section-features {
   padding: 120px 0px;
-  display: flex;
+
   width: 1158px;
   margin: auto;
 }
@@ -294,12 +279,7 @@ p {
 .title-features {
   margin-bottom: 8px;
 }
-.section-wawd {
-  padding-bottom: 120px;
-  display: flex;
-  width: 1158px;
-  margin: auto;
-}
+
 .title-wawd {
   margin-bottom: 72px;
 }
